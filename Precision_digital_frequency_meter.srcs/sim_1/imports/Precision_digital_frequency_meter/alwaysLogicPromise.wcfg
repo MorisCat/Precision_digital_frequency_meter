@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tbfile_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tbfile" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="37102919666666fs"></ZoomStartTime>
+      <ZoomEndTime time="37103040066667fs"></ZoomEndTime>
+      <Cursor1Time time="37103020000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="179"></NameColumnWidth>
+      <ValueColumnWidth column_width="140"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/tbfile/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbfile/sys_rst_p" type="logic">
+      <obj_property name="ElementShortName">sys_rst_p</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbfile/pause_in" type="logic">
+      <obj_property name="ElementShortName">pause_in</obj_property>
+      <obj_property name="ObjectShortName">pause_in</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbfile/freq" type="logic">
+      <obj_property name="ElementShortName">freq</obj_property>
+      <obj_property name="ObjectShortName">freq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbfile/u0_Top/freq" type="array">
+      <obj_property name="ElementShortName">freq[31:0]</obj_property>
+      <obj_property name="ObjectShortName">freq[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbfile/u0_Top/gate_1" type="logic">
+      <obj_property name="ElementShortName">gate_1</obj_property>
+      <obj_property name="ObjectShortName">gate_1</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbfile/u0_Top/gate_2" type="logic">
+      <obj_property name="ElementShortName">gate_2</obj_property>
+      <obj_property name="ObjectShortName">gate_2</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbfile/u0_Top/cnt_time" type="array">
+      <obj_property name="ElementShortName">cnt_time[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_time[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbfile/u0_Top/cnt_n2" type="array">
+      <obj_property name="ElementShortName">cnt_n2[60:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_n2[60:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbfile/u0_Top/pause_now" type="logic">
+      <obj_property name="ElementShortName">pause_now</obj_property>
+      <obj_property name="ObjectShortName">pause_now</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbfile/u0_Top/pause_pre" type="logic">
+      <obj_property name="ElementShortName">pause_pre</obj_property>
+      <obj_property name="ObjectShortName">pause_pre</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbfile/u0_Top/rising_edge" type="logic">
+      <obj_property name="ElementShortName">rising_edge</obj_property>
+      <obj_property name="ObjectShortName">rising_edge</obj_property>
+   </wvobject>
+</wave_config>
